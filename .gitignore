@@ -1,0 +1,19 @@
+# Vagrant
+.vagrant/
+*.box
+
+# Logs and runtime
+*.log
+logs/
+
+# OS / editor artifacts
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Temporary files
+*.tmp
+*.bak
