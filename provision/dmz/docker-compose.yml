@@ -1,0 +1,14 @@
+services:
+  dvwa:
+    image: vulnerables/web-dvwa:latest
+    container_name: dvwa
+    restart: unless-stopped
+    ports:
+      - "8080:80"
+
+  juiceshop:
+    image: bkimminich/juice-shop:latest
+    container_name: juiceshop
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
